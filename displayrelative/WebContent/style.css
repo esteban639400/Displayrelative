@@ -1,0 +1,50 @@
+@charset "UTF-8";
+p{
+    border: grey 4px solid;
+    box-sizing: content-box;
+    display: inline-block;
+}
+img{
+    border: grey 4px solid;
+    box-sizing: content-box;
+    display: inline-block;
+}
+
+p.dos{   
+    width: 225px;
+    height: auto;
+}
+img#dos{ 
+    position: relative;
+    right: 30px;
+}
+p#tres{  
+    width: 250px;
+    position: relative;
+    left: 25px;
+    height: 125px;
+}
+img#tres{
+    width: 250px;
+    height: 250px;
+    
+}
+p#cuatro{
+    width: 250px;
+    position: relative;
+    left: 55px;
+    bottom: 52px;
+    height: 125px;
+}
+p#cinco{
+    border: green 4px solid;
+    box-sizing: content-box;
+    width: 250px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    height: 125px;
+    margin: 0%;
+    padding: 0%;
+    
+}
